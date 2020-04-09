@@ -12,7 +12,7 @@ function aFunction(replaced, val){
 }//end aFunction()
     
     
-function permutations(aString){
+function permutate(aString){
     let anArray = [];     
     if ((typeof aString) == 'string'){
         anArray = aString.split("");
@@ -32,4 +32,4 @@ function permutations(aString){
     return someOutput;
 }//end perm()
 
-console.log(permutations('abab'));
+console.log(permutate('abab'));
