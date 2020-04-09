@@ -1,3 +1,4 @@
+//partial url 5254ca2719453dcc0b00027d/train
 function aFunction(replaced, val){
     let output = [];
     for(a = 0; a < replaced.length; a++){
